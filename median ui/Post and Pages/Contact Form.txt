@@ -1,0 +1,36 @@
+<p>Silahkan hubungi kami untuk pembelian atau laporkan bug yang ada pada template ini</p>
+
+<div class='ContactForm' id='ContactForm1'>
+  <form name='cForm'>
+    <div class='cArea'>
+      <label>
+        <input class='cInpt cName' id='ContactForm1_contact-form-name' name='name' type='text'/>
+        <span class='n'>Name</span>
+      </label>
+    </div>
+    <div class='cArea'>
+      <label>
+        <input class='cInpt cMail' id='ContactForm1_contact-form-email' name='email' type='email'/>
+        <span class='n req'>Email</span>
+      </label>
+      <span class='h'>Valid email required</span>
+    </div>
+    <div class='cArea'>
+      <label>
+        <textarea class='cInpt cMsg' id='ContactForm1_contact-form-email-message' name='message' rows='3'></textarea>
+        <span class='n req'>Message</span>
+      </label>
+      <span class='h'>Empty messages not accepted</span>
+    </div>
+    <div class='cArea'>
+      <input class='cBtn' id='ContactForm1_contact-form-submit' type='button' value='Submit' />
+    </div>
+    <div class='cArea nArea'>
+      <p class='cNtf' id='ContactForm1_contact-form-error-message'></p>
+      <p class='cNtf' id='ContactForm1_contact-form-success-message'></p>
+    </div>
+  </form>
+</div>
+
+<script src='https://www.blogger.com/static/v1/widgets/2271878333-widgets.js'></script>
+<script>/*<![CDATA[*/ if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '0000000000000000000';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\0000000000000000000','//www.yourDomain.com/','0000000000000000000'); _WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'footer1', null, document.getElementById('ContactForm1'), {'contactFormMessageSendingMsg': 'Sending...', 'contactFormMessageSentMsg': 'Your message has been sent.', 'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.', 'contactFormInvalidEmailMsg': 'A valid email address is required.', 'contactFormEmptyMessageMsg': 'Message field cannot be empty.', 'title': 'Contact Form', 'blogId': '0000000000000000000', 'contactFormNameMsg': 'Name', 'contactFormEmailMsg': 'Email', 'contactFormMessageMsg': 'Message', 'contactFormSendMsg': 'Send', 'submitUrl': 'https://www.blogger.com/contact-form.do'}, 'displayModeFull')); var inputs = document.querySelectorAll('.widget input[type=text], .widget input[type=email], .widget textarea'); for (var i = 0; i < inputs.length; i++) { var input = inputs[i]; input.addEventListener('input', function() {var bg = this.value ? 'fl' : 'nfl'; this.setAttribute('data-text',bg);}); } /*]]>*/</script>
